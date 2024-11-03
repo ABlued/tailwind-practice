@@ -1,0 +1,16 @@
+{
+  "name": "tailwindPractice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "나재완 <jaewan.na@newin.co.kr>",
+  "license": "MIT",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/styles.css -o ./public/styles.css --watch"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
